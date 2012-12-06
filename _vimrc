@@ -4,6 +4,7 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+nnoremap <esc> :noh<return><esc>
 set nobackup
 set number
 syntax on
